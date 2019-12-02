@@ -7,6 +7,13 @@ public class student {
 	private String firstname;
 	private String middlename;
 	private String lastname;
+	private String one;
+	public void setOne(String one) {
+		this.one = one;
+	}
+	public String getOne() {
+		return one;
+	}
 
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
@@ -36,7 +43,7 @@ public class student {
 		this.id = id;
 	}
 
-	public int getId() {
+	public int getId() {  
 		return id;
 	}
 
